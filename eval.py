@@ -1,0 +1,13 @@
+a=input("enter a number:    ")
+b=input("enter a number:    ")
+a=eval(a)
+b=eval(b)
+print(a+b)
+
+a=input("enter a number:")
+b=input("enter a number:")
+c=input("enter a third number:")
+a=eval(a)
+b=eval(b)
+c=eval(c)
+print(a+b+c)
