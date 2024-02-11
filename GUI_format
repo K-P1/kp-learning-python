@@ -1,0 +1,29 @@
+#
+import tkinter as tk
+from tkinter import ttk
+
+# window
+window= tk.Tk()
+window.title("")
+window.geometry('800x500')
+
+#widgets
+label1= ttk.Label(window, text= 'red', background= 'red')
+label2= ttk.Label(window, text= 'blue', background= 'blue')
+label3= ttk.Label(window, text= 'green', background= 'green')
+label4= ttk.Label(window, text= 'orange', background= 'orange')
+label5= ttk.Label(window, text= 'yellow', background= 'yellow')
+label6= ttk.Label(window, text= 'black', background= 'black')
+label7= ttk.Label(window, text= 'white')
+label8= ttk.Label(window, text= 'brown', background= 'brown')
+button1= ttk.Button(window, text= 'button1')
+button2= ttk.Button(window, text= 'button2')
+button3= ttk.Button(window, text= 'button3')
+button4= ttk.Button(window, text= 'button4')
+button5= ttk.Button(window, text= 'button5')
+button6= ttk.Button(window, text= 'button6')
+entry1= ttk.Entry(window, text= 'entry1')
+entry2= ttk.Entry(window, text= 'entry2')
+
+#run
+window.mainloop()
